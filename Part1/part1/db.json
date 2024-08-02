@@ -1,0 +1,29 @@
+{
+  "phonebooks": [
+    {
+      "id": "1",
+      "name": "HTML is easy",
+      "number": "07244"
+    },
+    {
+      "id": "2",
+      "name": "Browser can execute only JavaScript",
+      "number": "07244"
+    },
+    {
+      "id": "3",
+      "name": "GET and POST are the most important methods of HTTP protocol",
+      "number": "07244"
+    },
+    {
+      "id": "bd84",
+      "name": "asd",
+      "number": "asd"
+    },
+    {
+      "id": "ea43",
+      "name": "asdasdasd",
+      "number": "asdasd"
+    }
+  ]
+}
