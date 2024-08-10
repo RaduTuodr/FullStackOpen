@@ -1,0 +1,37 @@
+POST http://localhost:3001/api/phonebook
+Content-Type: application/json
+
+{
+    "name": "Stefania",
+    "number": true
+}
+
+###
+GET http://localhost:3001/api/phonebook/66b4880cd88a9a51af26f8d1
+Accept: application/json
+
+{
+    "id":"66b4880cd88a9a51af26f8d1"
+}
+
+###
+PUT http://localhost:3001/api/phonebook/66b4880cd88a9a51af26f8d1
+Content-Type: application/json
+
+{
+    "name":"Stefania",
+    "number":"0754589898"
+}
+
+###
+DELETE http://localhost:3001/api/phonebook/66b48e5157a5161476298a1c
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id": "66b487cd0d3a18b58cb029a4"
+}
+
+###
+GET http://localhost:3001/api/phonebook
+Content-Type: application/json
