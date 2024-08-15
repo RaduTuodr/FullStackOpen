@@ -1,0 +1,18 @@
+GET http://localhost:3001/api/blogs
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVzZXIyIiwiaWQiOiI2NmJlMjYyN2ExMWY4NjkyNjY0NDRkMTgiLCJpYXQiOjE3MjM3Mzc3MjcsImV4cCI6MTcyMzc0MTMyN30.8lTuxu2VMRr2Tu26WbwG1xWp0lEdFG6mdAAp2nrXPI8
+
+{
+    "title": "bolggggggg blog",
+    "author": "Eu",
+    "url": "https://google.com",
+    "likes": 1
+}
+
+### 
+DELETE http://localhost:3001/api/blogs/66be265fa11f869266444d1c
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVzZXIxIiwiaWQiOiI2NmJkZGUxN2U0YTFjYzkyMGM3ZWNmNTEiLCJpYXQiOjE3MjM3Mzc5NjAsImV4cCI6MTcyMzc0MTU2MH0.j5naOq-dL9a2rKZGJzcnEeXdeWhi9sseaqNWAFpUAWQ
